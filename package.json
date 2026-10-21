@@ -1,0 +1,23 @@
+{
+  "name": "word-ladder-solver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free JavaScript word ladder solver using breadth-first search, with word-list normalization and wildcard indexing.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/solve.js"
+  },
+  "exports": {
+    ".": "./src/solver.js",
+    "./word-list": "./src/word-list.js"
+  },
+  "homepage": "https://wordladderdaily.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyx94-ir/word-ladder-solver.git"
+  },
+  "keywords": ["word-ladder", "solver", "bfs", "breadth-first-search", "javascript", "graph"]
+}

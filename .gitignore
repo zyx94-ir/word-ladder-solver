@@ -1,0 +1,15 @@
+# Only explicitly reviewed standalone files belong in this public repository.
+*
+!.gitignore
+!README.md
+!LICENSE
+!package.json
+!src/
+!src/word-list.js
+!src/solver.js
+!examples/
+!examples/solve.js
+!examples/words.txt
+!test/
+!test/word-list.test.js
+!test/solver.test.js
